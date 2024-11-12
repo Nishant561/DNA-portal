@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-color: red;
+    --secondary-color:blue;
+    --hover-color:rgb(193, 29, 29);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.page-links li a{
+    transition:all ease-in-out 300ms;
+}
+
+.page-links li a:hover{
+    color: var(--hover-color);
+}
+
+.big-images img{
+    transition: all linear 300ms;
+}
+
+.big-images img:hover{
+    transform: scale(1.06);
+}
+
+.section-css{
+    /* max-w-[1200px] py-5 pb-14 px-5 bg-white rounded-lg mx-auto */
+    max-width: 1200px;
+    padding: 80px ;
+    padding-bottom:100px ;
+    background-color: white;
+    border-radius: 6px;
+    margin:0 auto;
+    
+}
+
+
+
+
+@media only screen and (max-width: 357px){
+    .logo-container{
+       width: 114px;
+    }
+    
+    .date{
+        font-size: 10px;
+        padding-top: 4px;
+    }
+    
+    
+}
